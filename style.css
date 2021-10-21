@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #ffa;
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190831/pngtree-nature-landscape-background-in-a-sunset-image_311272.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.calc-body{
+  max-width: 300px;
+  width: 95%;
+  margin: 5px 0px;
+}
+
+.button-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 5px;
+}
+
+.display{
+  background-color: lightgrey;
+  font-size: 20px;
+  padding: 10px;
+  text-align: right;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.button{
+  background-color: lightgrey;
+  width: 56px;
+  height: 1.5em;
+  padding-top: 3px;
+  margin: 2px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.ce-button{
+  background-color: #faa;
+}
